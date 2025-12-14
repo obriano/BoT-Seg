@@ -4,5 +4,10 @@ This project investigates whether instance segmentation can provide measurable b
     
 Experiments are conducted on a dense pedestrian video. Tracking performance is evaluated using proxy MOT metrics, including average active tracks per frame, total unique track identities, track length distributions, and estimated ID switches. Results show that the segmentation-assisted variant produces tracking behavior nearly identical to the baseline BoT-SORT pipeline, with no consistent improvement in track stability or identity preservation. These findings suggest that naïve segmentation integration, particularly when using models trained on generic datasets such as COCO, provides limited benefit for modern tracking systems already dominated by strong detection and association mechanisms.
 
+Please download and use BoT-SORT's original github for setup, the files provided in this repository only includes additional and modified files.
+
+# BoT-SORT
+https://github.com/NirAharon/BoT-SORT
+
 # Demo Video Download
 https://drive.google.com/drive/folders/1U2Z21qJxRjsBYjXpVZpLOPXU3BE0BUKk?usp=sharing
